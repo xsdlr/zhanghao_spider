@@ -11,7 +11,7 @@ import scrapy
 class ZhanghaoItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    id = scrapy.Field()
     type = scrapy.Field()
     account = scrapy.Field()
     password = scrapy.Field()
-    pass
